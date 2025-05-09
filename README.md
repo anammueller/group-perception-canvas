@@ -17,7 +17,7 @@ This canvas was developed as part of a doctoral research project investigating b
 - 📱 **Embeddable into survey tools** like SoSci Survey or used standalone
 - 📊 **Exports as image and coordinates** for post-hoc distance calculation
 - 🧩 **Fully customizable** layout and radius per study needs
-- ✅ **Field-tested** with 187+ participants
+- ✅ **Field-tested** with 180+ participants
 
 ## 📁 Files
 
@@ -33,6 +33,6 @@ You are free to share and adapt the material for non-commercial purposes with ap
 More info: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
 
-# Acknowledgments
+## Acknowledgments
 
 This code was developed as part of Ana Müllers PhD program at at the Cologne Cobots Lab, TH Köln – University of Applied Sciences, Germany within the project “Skilled” [https://www.th-koeln.de/anlagen-energie-und-maschinensysteme/skilled_87008.php]. This research was funded by the Federal Ministry of Education and Research of Germany in the framework FH-Kooperativ 2-2019 (project number 13FH504KX9). We thank our collaboration partners DB Systel GmbH, Deutsches Museum Bonn and all other collaborators for their assistance and contributions.
