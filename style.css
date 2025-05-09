@@ -1,0 +1,27 @@
+#container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#vennCanvas {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  border: 1px solid #000000;
+  touch-action: none;
+}
+
+#saveButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#saveButton:hover {
+  background-color: #45a049;
+}
