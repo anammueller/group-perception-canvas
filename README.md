@@ -43,7 +43,8 @@ If the exported PNG images from the canvas are to be analyzed quantitatively, th
 
 📄 See: [`image-analysis/distance_analysis.py`](image-analysis/distance_analysis.py)
 
-Dependencies:
+## 📦 Dependencies
+
 ```bash
 pip install opencv-python numpy openpyxl
   
