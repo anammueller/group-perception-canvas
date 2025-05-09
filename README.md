@@ -22,7 +22,7 @@ This canvas was developed as part of a doctoral research project investigating b
 - 🧑‍🤝‍🧑 **Visual bonding representation** via drag-and-drop circle placement
 - 🔄 **Dynamic labeling** (e.g., Me, Agent, GM1, GM2…) to reflect group structure
 - 📱 **Embeddable into survey tools** like SoSci Survey or used standalone
-- 📊 **Exports as image and coordinates** for post-hoc distance calculation
+- 📊 **Exports as image and distance extraction** for post-hoc distance calculation (optional)
 - 🧩 **Fully customizable** layout and radius per study needs
 - ✅ **Field-tested** with 180+ participants
 
@@ -31,6 +31,21 @@ This canvas was developed as part of a doctoral research project investigating b
 - `index.html`: Main HTML structure
 - `style.css`: Styling and layout
 - `script.js`: Drag-and-drop logic and export functionality
+
+ ## 📊 Distance Extraction (Optional)
+
+If the exported PNG images from the canvas are to be analyzed quantitatively, the toolkit includes a Python script for **automatic image-based distance calculation**. It:
+
+- Detects circles by color (Red, Blue, Green)
+- Calculates pairwise distances between labeled circles
+- Converts pixel distances to **millimeters** using a scaling factor
+- Saves results into a structured **Excel file**
+
+📄 See: [`image-analysis/distance_analysis.py`](image-analysis/distance_analysis.py)
+
+Dependencies:
+```bash
+pip install opencv-python numpy openpyxl
   
 ## License
 
