@@ -13,7 +13,7 @@ Here's how the Group Perception Canvas works in practice (Ich = Participent "Me"
 
 ## 🔍 Background & Motivation
 
-While many tools in Human-Agent Interaction research focus on physical proximity or objective metrics, subjective social closeness remains underrepresented — especially in **group contexts**. Inspired by the IOS (Inclusion of Other in the Self) scale, the **Group Perception Canvas** allows participants to **visually indicate their felt closeness** to socially interactive agents (SIAs) and peers.
+While many tools in Human-Agent Interaction research focus on physical proximity or objective metrics, subjective social closeness remains underrepresented — especially in **group contexts**. Inspired by the  Interactive IOS (Inclusion of Other in the Self) Scale for Multiparty Interactions (IIMI) [1,2], the **Group Perception Canvas** allows participants to **visually indicate their felt closeness** to socially interactive agents (SIAs) and peers.
 
 This canvas was developed as part of a doctoral research project investigating bonding in group-agent interactions (GAI) and was deployed in tablet-based surveys after museum interactions with a robot and a virtual agent.
 
@@ -50,6 +50,12 @@ pip install opencv-python numpy openpyxl
 ### 💡Note
 
 This code illustrates an example interaction involving a participant (“Participant”), an agent (“Agent”), and two group members (“GM 1” and “GM 2”). The number and labeling of group members are not fixed but are determined adaptively based on filter questions in the associated questionnaire (see e.g., https://github.com/anammueller/questionnaire-transcripst-Skilled/blob/main/Transkript%20des%20Fragebogens%20zur%20Studie%20im%20Deutschen%20Museum%20Bonn%20mit%20dem%20MetaHuman.pdf). These filters were configured such that the code adjusts dynamically: “Participant” and “Agent” are always displayed (reflecting the core dyadic interaction), and the number of group members shown varies depending on participants’ responses.
+
+### References
+
+[1]  S. Sebo, A. Wuqi Zhang, and T.-H. Lin, “Interactive IOS Scale for Multiparty Interactions (IIMI): A Measure of Interpersonal Closeness with Multiple Interactants,” Sebo Lab. [Online]. Available: https://github.com/SeboLab/interactive_ios_scale
+
+[2] A. W. Zhang, T.-H. Lin, X. Zhao, and S. Sebo, “Ice-Breaking Technology: Robots and Computers Can Foster Meaningful Connections between Strangers through In-Person Conversations,” in Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems. ACM, 2023-04-19, pp. 1–14. [Online]. Available: https://dl.acm.org/doi/10.1145/3544548.3581135
   
 ## License
 
