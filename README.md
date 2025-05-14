@@ -46,6 +46,10 @@ If the exported PNG images from the canvas are to be analyzed quantitatively, th
 ### 📦 Dependencies
 
 pip install opencv-python numpy openpyxl
+
+### 💡Note
+
+This code illustrates an example interaction involving a participant (“Participant”), an agent (“Agent”), and two group members (“GM 1” and “GM 2”). The number and labeling of group members are not fixed but are determined adaptively based on filter questions in the associated questionnaire (see e.g., https://github.com/anammueller/questionnaire-transcripst-Skilled/blob/main/Transkript%20des%20Fragebogens%20zur%20Studie%20im%20Deutschen%20Museum%20Bonn%20mit%20dem%20MetaHuman.pdf). These filters were configured such that the code adjusts dynamically: “Participant” and “Agent” are always displayed (reflecting the core dyadic interaction), and the number of group members shown varies depending on participants’ responses.
   
 ## License
 
