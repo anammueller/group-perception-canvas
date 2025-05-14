@@ -6,7 +6,7 @@ Developed and field-tested in a large-scale in-the-wild study at a museum this t
 
 ## 🖱 Demo
 
-Here's how the Group Perception Canvas works in practice (Ich = Participent "I"; Agent Mira = Agent; GM# - adaptable for group members)
+Here's how the Group Perception Canvas works in practice (Ich = Participent "Me"; Agent Mira = Agent; GM# - adaptable for group members)
 
 ![Group Canvas Demo](Demo-gpc.gif)
 
@@ -61,4 +61,5 @@ More info: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecom
 
 ## Acknowledgments
 
-This code was developed as part of Ana Müllers PhD program at at the Cologne Cobots Lab, TH Köln – University of Applied Sciences, Germany within the project “Skilled” [https://www.th-koeln.de/anlagen-energie-und-maschinensysteme/skilled_87008.php]. This research was funded by the Federal Ministry of Education and Research of Germany in the framework FH-Kooperativ 2-2019 (project number 13FH504KX9). We thank our collaboration partners DB Systel GmbH.
+This code was developed as part of Ana Müllers PhD program at at the Cologne Cobots Lab, TH Köln – University of Applied Sciences, Germany within the project “Skilled” [https://www.th-koeln.de/anlagen-energie-und-maschinensysteme/skilled_87008.php]. This research was funded by the Federal Ministry of Education and Research of Germany in the framework FH-Kooperativ 2-2019 (project number 13FH504KX9). We thank our collaboration partners DB Systel GmbH. We would also like to thank our student assistant Alwaleed Altabaa for refining the code updates and providing valuable feedback during the development process.
+
